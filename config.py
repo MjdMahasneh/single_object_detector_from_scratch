@@ -6,7 +6,7 @@ class Config:
         self.loss_fn = "smoothl1"  # "iou", "giou", "ciou", "mse", "smoothl1", "WingLoss", "L1Loss"
         self.batch_size = 64#16
         self.shuffle = True
-        self.epochs = 200
+        self.epochs = 400
         self.backbone = "resnet34"  # "resnet34", "mobilenet_v2", "shufflenet", "efficientnet_b0"
         self.freeze_backbone = False
         self.eval_every = 4
